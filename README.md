@@ -1,73 +1,108 @@
-# Welcome to your Lovable project
+<p align="center">
+  <img src="public/images/Solaris-banner.svg" alt="Solaris Glow banner" width="100%" style="border-radius: 12px;" />
+</p>
 
-## Project info
+# ☀️ **Solaris Glow — Gestión Energética Sostenible**
 
-**URL**: https://lovable.dev/projects/1d47bb8f-4c38-4dfb-8cb2-516ae093da86
+> “La energía del futuro, visualizada hoy.”
 
-## How can I edit this code?
+Solaris Glow es una plataforma moderna e interactiva desarrollada con **React + Vite + TailwindCSS + Firebase**, diseñada para **visualizar y optimizar el consumo energético** de distintos sectores.
+Combina autenticación segura, gráficas dinámicas y análisis inteligente de datos para impulsar la sostenibilidad y la eficiencia energética.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 **Características principales**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1d47bb8f-4c38-4dfb-8cb2-516ae093da86) and start prompting.
+- 📊 **Visualizaciones Interactivas** con Recharts y Framer Motion.
+- 🔐 **Autenticación con número telefónico (Firebase Auth + reCAPTCHA)**.
+- ⚙️ **Backend Serverless** con Firebase Firestore y Hosting integrado.
+- 🌙 **Modo oscuro y claro** con Next Themes y Tailwind.
+- 🌍 **Mapas energéticos** con React Leaflet y @react-google-maps/api.
+- ⚡ **Rendimiento extremo** gracias a Vite + React 19.
+- 🧩 **Arquitectura modular y mantenible** con hooks y componentes reutilizables.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🧠 **Tecnologías utilizadas**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Categoría                    | Tecnologías                                                      |
+| ---------------------------- | ---------------------------------------------------------------- |
+| **Frontend**                 | React 19, TypeScript, Vite, TailwindCSS, Radix UI, Framer Motion |
+| **Visualización**            | Recharts, Embla Carousel, Lucide Icons                           |
+| **Autenticación y backend**  | Firebase Auth, Firestore, Firebase Hosting                       |
+| **Formularios y validación** | React Hook Form, Zod                                             |
+| **Mapas y geolocalización**  | Leaflet, React-Leaflet, Google Maps API                          |
+| **Extras**                   | Sonner (notificaciones), React Query, clsx, tailwind-merge       |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🧩 **Estructura del proyecto**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```
+src/
+ ├── components/     → Componentes visuales y reutilizables
+ ├── hooks/          → Custom hooks y lógica compartida
+ ├── lib/            → Configuración de Firebase y utilidades
+ ├── pages/          → Páginas principales de la aplicación
+ ├── App.tsx         → Raíz de la aplicación React
+ ├── index.css       → Estilos globales (Tailwind)
+ └── main.tsx        → Punto de entrada de Vite
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠️ **Instalación local**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+# 1️⃣ Clona el repositorio
+git clone https://github.com/tuusuario/solaris-glow.git
+
+# 2️⃣ Entra en el proyecto
+cd solaris-glow
+
+# 3️⃣ Instala las dependencias
+npm install
+
+# 4️⃣ Ejecuta en modo desarrollo
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔥 **Despliegue en Firebase**
 
-**Use GitHub Codespaces**
+```bash
+# Construye la app para producción
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Previsualiza localmente (opcional)
+npm run preview
 
-## What technologies are used for this project?
+# Luego despliega a Firebase Hosting
+firebase deploy
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📸 **Vista previa**
 
-## How can I deploy this project?
+<p align="center">
+  <img src="public/images/Solaris.png" alt="Vista previa de Solaris Glow" width="90%" style="border-radius: 12px;"/>
+</p>
 
-Simply open [Lovable](https://lovable.dev/projects/1d47bb8f-4c38-4dfb-8cb2-516ae093da86) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 💡 **Inspiración**
 
-Yes, you can!
+Solaris Glow nació del deseo de **democratizar la gestión energética**, combinando diseño visual, sostenibilidad y tecnología moderna para empoderar comunidades, empresas y gobiernos en la toma de decisiones más inteligentes.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🧑‍💻 **Autor**
+
+**Metazack89**
+🔗 [GitHub](https://github.com/metazack89) • 🌐 [https://solaris-glow-40b8c.web.app/](#)
+
+---
+
+> 🌞 _“Solaris Glow — Porque la energía del mañana comienza con la claridad de hoy.”_

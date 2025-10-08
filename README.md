@@ -87,7 +87,7 @@ firebase deploy
 ## 📸 **Vista previa**
 
 <p align="center">
-  <img src="public/images/Solaris.png" alt="Vista previa de Solaris Glow" width="90%" style="border-radius: 12px;"/>
+  <img src="public/images/Solaris-banner.svg" alt="Vista previa de Solaris Glow" width="90%" style="border-radius: 12px;"/>
 </p>
 
 ---

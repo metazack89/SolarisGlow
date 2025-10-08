@@ -1,38 +1,53 @@
 <p align="center">
-  <img src="public/images/Solaris-banner.svg" alt="Solaris Glow banner" width="100%" style="border-radius: 12px;" />
+  <img src="public/images/Solaris.jpg" alt="Solaris Glow portada" width="100%" style="border-radius: 14px; box-shadow: 0 4px 25px rgba(255, 200, 50, 0.3);" />
 </p>
 
-# ☀️ **Solaris Glow — Gestión Energética Sostenible**
+<h1 align="center">☀️ <b>Solaris Glow — Gestión Energética Sostenible</b></h1>
 
-> “La energía del futuro, visualizada hoy.”
+<p align="center">
+  <i>“La energía del futuro, visualizada hoy.”</i>
+</p>
 
-Solaris Glow es una plataforma moderna e interactiva desarrollada con **React + Vite + TailwindCSS + Firebase**, diseñada para **visualizar y optimizar el consumo energético** de distintos sectores.
-Combina autenticación segura, gráficas dinámicas y análisis inteligente de datos para impulsar la sostenibilidad y la eficiencia energética.
+---
+
+## ⚡ **Descripción general**
+
+**Solaris Glow** es una plataforma moderna, interactiva y sostenible desarrollada con **React + Vite + TailwindCSS + Firebase**.
+Permite **visualizar y optimizar el consumo energético** a través de gráficos dinámicos, autenticación segura y análisis inteligente de datos.
+Está pensada para ayudar a empresas, instituciones y usuarios a comprender y mejorar su huella energética.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Vite-7.1-646CFF?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3.4.17-38BDF8?style=for-the-badge&logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/Firebase-12.3.0-FFCA28?style=for-the-badge&logo=firebase" />
+  <img src="https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=for-the-badge&logo=typescript" />
+</p>
 
 ---
 
 ## 🚀 **Características principales**
 
-- 📊 **Visualizaciones Interactivas** con Recharts y Framer Motion.
+- 📊 **Visualizaciones interactivas** con Recharts y animaciones de Framer Motion.
 - 🔐 **Autenticación con número telefónico (Firebase Auth + reCAPTCHA)**.
-- ⚙️ **Backend Serverless** con Firebase Firestore y Hosting integrado.
-- 🌙 **Modo oscuro y claro** con Next Themes y Tailwind.
-- 🌍 **Mapas energéticos** con React Leaflet y @react-google-maps/api.
-- ⚡ **Rendimiento extremo** gracias a Vite + React 19.
-- 🧩 **Arquitectura modular y mantenible** con hooks y componentes reutilizables.
+- ☁️ **Backend serverless** mediante Firestore y Firebase Hosting.
+- 🌙 **Modo oscuro y claro** configurable con Next Themes y Tailwind.
+- 🌍 **Mapas energéticos** con React Leaflet y Google Maps API.
+- ⚡ **Rendimiento optimizado** gracias a Vite + React 19.
+- 🧩 **Arquitectura modular** con hooks y componentes reutilizables.
 
 ---
 
 ## 🧠 **Tecnologías utilizadas**
 
-| Categoría                    | Tecnologías                                                      |
-| ---------------------------- | ---------------------------------------------------------------- |
-| **Frontend**                 | React 19, TypeScript, Vite, TailwindCSS, Radix UI, Framer Motion |
-| **Visualización**            | Recharts, Embla Carousel, Lucide Icons                           |
-| **Autenticación y backend**  | Firebase Auth, Firestore, Firebase Hosting                       |
-| **Formularios y validación** | React Hook Form, Zod                                             |
-| **Mapas y geolocalización**  | Leaflet, React-Leaflet, Google Maps API                          |
-| **Extras**                   | Sonner (notificaciones), React Query, clsx, tailwind-merge       |
+| Categoría                       | Tecnologías                                                           |
+| ------------------------------- | --------------------------------------------------------------------- |
+| 💻 **Frontend**                 | React 19 · TypeScript · Vite · TailwindCSS · Radix UI · Framer Motion |
+| 📈 **Visualización**            | Recharts · Embla Carousel · Lucide Icons                              |
+| 🔒 **Backend & Auth**           | Firebase Auth · Firestore · Firebase Hosting                          |
+| 🧾 **Formularios & Validación** | React Hook Form · Zod                                                 |
+| 🗺️ **Mapas & Geolocalización**  | Leaflet · React-Leaflet · Google Maps API                             |
+| ✨ **Extras**                   | Sonner (toasts) · React Query · clsx · tailwind-merge                 |
 
 ---
 
@@ -75,33 +90,26 @@ npm run dev
 # Construye la app para producción
 npm run build
 
-# Previsualiza localmente (opcional)
+# (Opcional) Previsualiza el resultado
 npm run preview
 
-# Luego despliega a Firebase Hosting
+# Despliega a Firebase Hosting
 firebase deploy
 ```
 
 ---
 
-## 📸 **Vista previa**
-
-<p align="center">
-  <img src="public/images/Solaris-banner.svg" alt="Vista previa de Solaris Glow" width="90%" style="border-radius: 12px;"/>
-</p>
-
----
-
 ## 💡 **Inspiración**
 
-Solaris Glow nació del deseo de **democratizar la gestión energética**, combinando diseño visual, sostenibilidad y tecnología moderna para empoderar comunidades, empresas y gobiernos en la toma de decisiones más inteligentes.
+Solaris Glow nació con la visión de **democratizar la gestión energética** y promover una relación más consciente con el consumo eléctrico.
+El proyecto combina **tecnología moderna, diseño visual y propósito ecológico** para inspirar un futuro más limpio y sostenible.
 
 ---
 
 ## 🧑‍💻 **Autor**
 
 **Metazack89**
-🔗 [GitHub](https://github.com/metazack89) • 🌐 [https://solaris-glow-40b8c.web.app/](#)
+🔗 [GitHub](https://github.com/metazack89) • 🌐 [Demo en línea](https://solaris-glow-40b8c.web.app/)
 
 ---
 
